@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer div{
+    text-align: center;
+}
